@@ -5,19 +5,13 @@ body{ background-color: #daf0ee;
 
 .container{
      display:  grid;
-     grid-template-columns: 1fr 2fr 1fr ;
-     grid-template-rows: auto;
-     grid-template-areas: 
-     "heading heading heading"
-     "navbar navbar navbar"
-     "text1 text1 img1"
-     "img2 text2 text2"
-     "text3 text3 img3"
-     "img4 text4 text4"
-     "text5 text5 img5"
-     "footer footer footer";
-    
-}
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows:auto;
+     grid-template-areas:
+     "heading heading"
+     "navbar navbar"
+     "text1 text1"
+     "footer footer";}
 
 .heading{
     grid-area: heading;
@@ -29,7 +23,6 @@ body{ background-color: #daf0ee;
 .body{
      font-family: "Playfair Display", serif;
 }
-
 .navbar{ 
     grid-area: navbar;
     background-color: #9db5b2;
@@ -40,12 +33,10 @@ body{ background-color: #daf0ee;
 .navbar ul{
 list-style-type: none;
 }
-
 .navbar li{
     display: inline-block;
     padding: 10px;
 }
-
 .navbar a{
 padding: 20px;
 background-color: rgb(255, 255, 255);
@@ -54,29 +45,16 @@ border-color: rgb(0, 0, 0);
 }
 
 
-
-
-
-
-
-
-
-
-
-
+.text1{
+    grid-area: text1;
+    background-color: #ffffff;
+    border-style: solid;
+    background: linear-gradient(to bottom, #94d1be, #9db5b2);;
+}
 
 .footer{
     grid-area: footer;
     background-color: #ffffff;
     text-align: center;
     background: linear-gradient(to bottom, #ffffff,#3b413c );
-}
-
-
-img { 
-    width: 100% 
-}
-
-img{
-    height: 100%
 }

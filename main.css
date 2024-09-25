@@ -73,6 +73,9 @@ border-color: rgb(0, 0, 0);
     background: linear-gradient(to bottom, #94d1be, #9db5b2);
 }
 
+.text2{
+    grid-area: text2;
+}
 
 .img3{
     grid-area: img3;
@@ -122,3 +125,20 @@ img {
 img{
     height: 100%
 }
+
+.text2 h6{
+    text-align: right;
+}
+
+.text3 h6{
+    text-align: right;
+}
+
+.text4 h6{
+    text-align: right;
+}
+
+.text5 h6{
+    text-align: right;
+}
+
