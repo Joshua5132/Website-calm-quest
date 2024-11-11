@@ -1,0 +1,141 @@
+body{ background-color: #daf0ee;
+    
+}
+
+
+.container{
+     display:  grid;
+     grid-template-columns: 1fr 2fr 1fr;
+     grid-template-rows: auto;
+     grid-template-areas: 
+     "heading heading heading"
+     "navbar navbar navbar"
+     "text1 text1 img1"
+     "img2 text2 text2"
+     "text3 text3 text3"
+     "img4 text4 text4"
+     "text5 text5 img5"
+     "footer footer footer";
+    
+}
+
+.heading{
+    grid-area: heading;
+    background-color: #fff;
+    text-align: center;
+    border-style: solid;
+    background: linear-gradient(to bottom, #9db5b2, #94d1be );
+}
+.body{
+     font-family: "Playfair Display", serif;
+}
+.navbar{ 
+    grid-area: navbar;
+    background-color: #9db5b2;
+    text-align: center;
+    border-style: solid;
+}
+
+.navbar ul{
+list-style-type: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+}
+.navbar a{
+padding: 20px;
+background-color: rgb(255, 255, 255);
+border-style: solid;
+border-color: rgb(0, 0, 0);
+}
+
+
+.text1{
+    grid-area: text1;
+    background-color: #ffffff;
+    border-style: solid;
+    background: linear-gradient(to bottom, #94d1be, #9db5b2);;
+}
+
+
+.img2{
+    grid-area: img2;
+    background-color: #ffffff;
+    border-style: solid;
+}
+
+
+.text3{
+    grid-area: text3;
+    background-color: #ffffff;
+    border-style: solid;
+    background: linear-gradient(to bottom, #94d1be, #9db5b2);
+}
+
+.text2{
+    grid-area: text2;
+}
+
+
+
+
+.text4{
+    grid-area: text4;
+    border-style: solid;
+}
+
+
+.text5{
+    grid-area: text5;
+    background-color: #ffffff;
+    border-style: solid;
+    background: linear-gradient(to bottom, #94d1be, #9db5b2);
+}
+
+
+.img4{
+    grid-area: img4;
+    background-color: #ffffff;
+    border-style: solid;
+}
+
+
+.img5{ 
+grid-area: img5;
+border-style: solid;
+}
+
+
+.footer{
+    grid-area: footer;
+    background-color: #ffffff;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff,#3b413c );
+}
+
+
+img { 
+    width: 100% 
+}
+
+img{
+    height: 100%
+}
+
+.text2 h6{
+    text-align: right;
+}
+
+.text3 h6{
+    text-align: right;
+}
+
+.text4 h6{
+    text-align: right;
+}
+
+.text5 h6{
+    text-align: right;
+}
+
