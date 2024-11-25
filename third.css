@@ -1,4 +1,4 @@
-body{ background-color: #a28497;
+body{ background-color: #73877B;
     
 }
 
@@ -12,7 +12,7 @@ body{ background-color: #a28497;
      "navbar navbar navbar"
      "text1 text1 img1"
      "img2 text2 text2"
-     "text3 text3 text3"
+     "text3 text3 img3"
      "img4 text4 text4"
      "text5 text5 img5"
      "footer footer footer";
@@ -21,17 +21,17 @@ body{ background-color: #a28497;
 
 .heading{
     grid-area: heading;
-    background-color: #fafafa;
+    background-color: #FEF5EF;
     text-align: center;
     border-style: solid;
-    background: linear-gradient(to bottom, #EC9F05, #D76A03 );
+    background: linear-gradient(to bottom, #202C59, #537A5A );
 }
 .body{
      font-family: "Playfair Display", serif;
 }
 .navbar{ 
     grid-area: navbar;
-    background-color: #a28497;
+    background-color: #73877B;
     text-align: center;
     border-style: solid;
 }
@@ -53,31 +53,34 @@ border-color: rgb(0, 0, 0);
 
 .text1{
     grid-area: text1;
-    background-color: #fafafa;
+    background-color: #FEF5EF;
     border-style: solid;
-    background: linear-gradient(to bottom, #EC9F05, #D76A03);;
+    background: linear-gradient(to bottom, #202C59, #537A5A);;
 }
 
 
 .img2{
     grid-area: img2;
-    background-color: #ffffff;
+    background-color: #FEF5EF;
     border-style: solid;
 }
 
 
 .text3{
     grid-area: text3;
-    background-color: #ffffff;
+    background-color: #FEF5EF;
     border-style: solid;
-    background: linear-gradient(to bottom, #EC9F05, #D76A03);
+    background: linear-gradient(to bottom, #202C59, #537A5A);
 }
 
 .text2{
     grid-area: text2;
 }
 
-
+.img3{
+    grid-area: img3;
+    border-style: solid;
+}
 
 
 .text4{
@@ -88,15 +91,15 @@ border-color: rgb(0, 0, 0);
 
 .text5{
     grid-area: text5;
-    background-color: #ffffff;
+    background-color: #FEF5EF;
     border-style: solid;
-    background: linear-gradient(to bottom, #EC9F05, #D76A03);
+    background: linear-gradient(to bottom, #202C59, #537A5A);
 }
 
 
 .img4{
     grid-area: img4;
-    background-color: #ffffff;
+    background-color: #FEF5EF;
     border-style: solid;
 }
 
@@ -109,9 +112,9 @@ border-style: solid;
 
 .footer{
     grid-area: footer;
-    background-color: #ffffff;
+    background-color: #FEF5EF;
     text-align: center;
-    background: linear-gradient(to bottom, #ffffff,#3b413c );
+    background: linear-gradient(to bottom, #FEF5EF,#537A5A );
 }
 
 
